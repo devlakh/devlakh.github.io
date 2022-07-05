@@ -8,18 +8,31 @@
 }
 
 #welcome .header{
-    transform: translateY(-20vh);
     color: #018786;
     font-size: max(8vh, 5vw);
 }
 
 #welcome hr{
-    transform: translateY(-20vh);
     width: 80vw;
 }
 
 #welcome .name{
-    transform: translateY(-20vh);
     color: #018786;
     font-size: max(4vh, 2vw);
+}
+
+#welcome .line{
+    height: min(20vw, 10vh);
+    position: absolute;
+}
+
+#welcome .line1{
+    outline: 1px solid #bb86fc;
+    transform: translate(-30vw, -15vh);
+    z-index: -1;
+}
+#welcome .line2{
+    outline: 1px solid #dd4d67;
+    transform: translate(30vw, 20vh);
+    z-index: -1;
 }

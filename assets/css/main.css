@@ -1,9 +1,8 @@
 *{
-    outline : 1px solid red;
+    /* outline : 1px solid red; */
 }
 
 html{
-    outline : 1px solid pink;
     height: 100%;
     width: 100%;
     padding: 0;
