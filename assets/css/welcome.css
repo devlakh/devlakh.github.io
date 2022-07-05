@@ -1,0 +1,25 @@
+#welcome{
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome .header{
+    transform: translateY(-20vh);
+    color: #018786;
+    font-size: max(8vh, 5vw);
+}
+
+#welcome hr{
+    transform: translateY(-20vh);
+    width: 80vw;
+}
+
+#welcome .name{
+    transform: translateY(-20vh);
+    color: #018786;
+    font-size: max(4vh, 2vw);
+}
